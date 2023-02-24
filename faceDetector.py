@@ -24,6 +24,8 @@ while True:
     key = cv2.waitKey(1)
     if key==81 or key==113:
         break
+webCam.release()
+cv2.destroyAllWindows()
 
 """
 #choose an image to detect faces in 
@@ -47,4 +49,3 @@ cv2.waitKey()
 
 """
 
-print("Code Completed")
